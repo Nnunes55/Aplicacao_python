@@ -1,7 +1,11 @@
+nome = input('Digite seu nome: ')
+idade = input('Digite sua idade: ')
+pi_arredondado = 3.14
 
+print('Python na Escola de Programação da Alura.')
 
-nome_dono = input('Digite o nome do dono do restaurante: ')
-nome_restaurante = input('Digite o nome do restaurante: ')
-endereco = input('Digite o endereço do restaurante: ')
+print(f'Meu nome é {nome} e tenho {idade} anos')
 
-print(nome_dono, nome_restaurante, endereco)
+print('A\nL\nU\nR\nA')
+
+print(f'O valor arredondado de pi é: {pi_arredondado}')
