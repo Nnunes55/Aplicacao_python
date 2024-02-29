@@ -30,3 +30,11 @@
 #else:
 #    print('Valor inválido!')
 
+numeros = [1,2,3,4,5,6,7,8,9,10]
+nomes = ['Andre', 'Marcos', 'Pedro', 'João']
+ano = [2003, 2023]
+
+if(numeros % 2 == 1):
+    print('impares')
+elif(numeros % 2 == 0):
+    print('pares')
